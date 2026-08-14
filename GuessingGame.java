@@ -20,7 +20,6 @@ public class GuessingGame {
             }else{
                 System.out.println("too high");
             }
-             System.out.println("Better Luck next time.By the way the secret number was:"+SecretNumber);
 
         }
 
