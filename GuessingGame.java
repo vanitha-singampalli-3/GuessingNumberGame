@@ -1,4 +1,5 @@
-import java.util.*;
+import java.util.Scanner;
+import java.util.Random;
 public class GuessingGame {
 
     public static void main(String args[]){
@@ -19,8 +20,9 @@ public class GuessingGame {
             }else{
                 System.out.println("too high");
             }
+             System.out.println("Better Luck next time.By the way the secret number was:"+SecretNumber);
 
-        } System.out.println("Better Luck next time.By the way the secret number was:"+SecretNumber);
+        }
 
     }
 }
